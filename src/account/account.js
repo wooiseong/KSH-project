@@ -30,8 +30,9 @@ const formImg = document.querySelector('.formImg')
 const removeImg = document.querySelector('.removeImg')
 const uploadImg = document.querySelector('.uploadImg')
 const input = ''
-
 formImg.addEventListener('change', (input) => {
+  formImg.disabled = true
+  formImg.style.opacity = 0.3
   renderImg(input)
 })
 
@@ -54,7 +55,10 @@ removeImg.addEventListener('click', () => {
   formImg.value = ''
   changeImg.src = ''
   changeImg.classList.add('invisible')
-  toastMessage('預覽頭像移除成功', 0)
+  toastMessage('移除頭像成功', 0)
+  document.addEventListener('hide.bs.toast', () => {
+    location.reload()
+  })
 })
 
 // 2.4 上傳頭像至後臺
@@ -77,6 +81,10 @@ function uploadDecodedImg(avatar){
       const responseText = res.data.message
       const code = res.data.code
       toastMessage(responseText,code)
+      removeImg.classList.add('disabled')
+      uploadImg.classList.add('disabled')
+      formImg.disabled = false
+      formImg.style.opacity = 1
     } catch (error){
       console.log(error)
         const responseText = error.response.request.statusText
