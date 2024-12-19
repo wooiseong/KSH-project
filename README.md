@@ -23,16 +23,16 @@ You can click on this link to view more pictures :point_right::point_right::poin
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
-2. Framework&nbsp; (&nbsp;Vue&nbsp;)
-3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
-4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
-5. Validation&nbsp; (&nbsp;Bootstrap validator + jQuery validate&nbsp;)
-6. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
-7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
-8. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
+2. Building tool&nbsp; (&nbsp;Webpack&nbsp;) 
+3. Storage&nbsp; (&nbsp;localStorage&nbsp;)
+4. Validation&nbsp; (&nbsp;Bootstrap validator + jQuery validate&nbsp;)
+5. Backend&nbsp; (&nbsp;External API&nbsp;)
+6. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
 
 ## Bugs/Future plans
-1. The large circle of customized cursor (plugin-GSAP) is not appeared during the first load of this project, until the page is refreshed. I will figure it out or change another cursor animation.
+1. After users log in, the navigation bar default logo should change to users's uploaded profile picture. When the page is refresh, it takes 1-2 seconds to execute the change. The desired effect should be: once users log in, the logo should be replaced and the users' profile pictures are displayed directly.
+
+2. If users cancel the previews many times, the requests with cancelled previews are still sent to the server. I think I do not clear the temporary storage of the previews when FileReader.onload is executed, or I do not terminate this asynchronous operation. To temporary solve this problem, the page is refresh if users cancel a preview. 
 
 ## Installation
 Please follow the instructions to get a copy of this project.
