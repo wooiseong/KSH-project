@@ -8,7 +8,7 @@ Demo here :point_down: <p></p>
 ## Project View
 Desktop (1366px)
 
-![image](https://i.ibb.co/2ndnpbF/1.png)
+![image](https://i.ibb.co/tXkbf8t/1-header.png)
 
 You can click on this link to view more pictures :point_right::point_right::point_right: 
 <a href="https://drive.google.com/drive/folders/16bUqu92zvwPCL3W7V19hLtldLZySoecc?usp=sharing">KSH hostel</a>
