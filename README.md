@@ -1,9 +1,10 @@
-# :house_with_garden:	 KSH.hostel :house_with_garden:	
+# :house_with_garden:	 KSH hostel :house_with_garden:	
 
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
 Demo here :point_down: <p></p>
-<a href="https://sleep-power-project.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat-square&logoColor=red&labelColor=%230072E3&color=%23FFE66F" alt="sleepPower"></a>
+<a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-KSH.hostel-1?style=flat&logoColor=red&labelColor=%237E7E7E&color=FFDA6A
+" alt="sleepPower"></a>
 
 
 ## Project View
@@ -12,7 +13,7 @@ Desktop (1366px)
 ![image](https://i.ibb.co/2ndnpbF/1.png)
 
 You can click on this link to view more pictures :point_right::point_right::point_right: 
-<a href="https://drive.google.com/drive/folders/1egRAHG3BL2f-zCDOnPX6_V9AMUe5CN5E?usp=drive_link" target="_blank">sleepProject</a>
+<a href="https://drive.google.com/drive/folders/16bUqu92zvwPCL3W7V19hLtldLZySoecc?usp=sharing">KSH hostel</a>
 
 ## Features
 |          Components               | Description                                                  | URL                  |
