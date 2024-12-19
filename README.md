@@ -4,7 +4,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 
 Demo here :point_down: <p></p>
 <a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-KSH.hostel-1?style=flat&logoColor=red&labelColor=%237E7E7E&color=FFDA6A
-" alt="sleepPower"></a>
+" alt="KSH.hostel"></a>
 
 
 ## Project View
