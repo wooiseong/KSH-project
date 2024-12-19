@@ -1,6 +1,6 @@
 # :house_with_garden:	 KSH hostel :house_with_garden:	
 
-This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
+Thus is a website where you can search hostels located in Kaohsiung, Taiwan. Moreover, you can register a new account and login to upload your profile picture and change your password.
 
 Demo here :point_down: <p></p>
 <a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-KSH.hostel-1?style=flat&logoColor=red&labelColor=%237B7B7B&color=%23FFDA6A" alt="KSH.hostel"></a>
@@ -16,24 +16,17 @@ You can click on this link to view more pictures :point_right::point_right::poin
 ## Features
 |          Components               | Description                                                  | URL                  |
 | :--------------------------: | ------------------------------------------------------------ | -------------------- |
-|    Home    | 1. A navigation bar that directs to About, Product and Shopping Cart is provided<br>2. User can obtain general informations about sleep<br>3. Updated promotion items are exhibited via Swiper | /      |
-|      About       | 1. Users are provided with our brand stories <br>2. The retail store location is added ( iframe ) | /about         |
-|      Product        | 1. A full list of products is displayed. <br>2. Users can select products through category filters  | /productList         |
-|      Product Detail  | Users can view all details of the intersted product and add it to the shopping cart              | /detail?itemId        |
-|      Payment-Total     | A summary of products stored in shopping cart is provided | /payment/total                    |
-|      Payment-Information       | 1. Informations about the users are required<br>2. Users will get a warning message for invalid input format | /payment/infromation       |
-|       Payment-Confirmation        | 1. A summary of products and information is set up<br> 2. A modal will popped up for final confirmation       | /payment/confirm   |
-|      Payment-Success       | 1. Congraz!<br> 2. The order reference number is produced and click-to-copy function is provided    | /payment/success |
-|        Page not found        | Users will be directed to this page if the URL does not match any route | /anyURL      |
-|      Shopping Cart        | Users can change the quantity and drop unwanted products |                     |
-|      Breadscrumb        | Users can be directed to parent pages  |                     |
+|    Home    | 1. A searchBar is provided for users to view hostels in Kaohsiung <br>2. Users can obtain more details about interested hostels by clicking the toggle icon | /      |
+|      Login       | 1. Users can switch login and register form <br>2. Users will receive warning if the input is not valid 3. Users will be notified about the result of form submission| /login.html         |
+|      Account        | 1. Section A - Users can preview, cancel and upload profile picture (type: ico, jpg, jpeg, png) <br>2. Section B - Users can change password for their account | /account.html         |
+
 
 ## Tools
 1. Designs&nbsp; (&nbsp;Bootstrap + Sass&nbsp;)
 2. Framework&nbsp; (&nbsp;Vue&nbsp;)
 3. Building tool&nbsp; (&nbsp;Vite&nbsp;) 
 4. Storage&nbsp; (&nbsp;Pinia&nbsp;)
-5. Validation&nbsp; (&nbsp;Vee-validate + Yup&nbsp;)
+5. Validation&nbsp; (&nbsp;Bootstrap validator + jQuery validate&nbsp;)
 6. Backend&nbsp; (&nbsp;JSON Server&nbsp;)
 7. Deployment&nbsp; (&nbsp;Vercel&nbsp;)
 8. Code check&nbsp; (&nbsp;husky + lint-staged&nbsp;)
