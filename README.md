@@ -17,7 +17,7 @@ You can click on this link to view more pictures :point_right::point_right::poin
 |          Components               | Description                                                  | URL                  |
 | :--------------------------: | ------------------------------------------------------------ | -------------------- |
 |    Home    | 1. A searchBar is provided for users to view hostels in Kaohsiung <br>2. Users can obtain more details about interested hostels by clicking the toggle icon | /      |
-|      Login       | 1. Users can switch login and register form <br>2. Users will receive warning if the input is not valid 3. Users will be notified about the result of form submission| /login.html         |
+|      Login       | 1. Users can switch login and register form <br>2. Users will receive warning if the input is not valid <br>3. Users will be notified about the result of form submission| /login.html         |
 |      Account        | 1. Section A - Users can preview, cancel and upload profile picture (type: ico, jpg, jpeg, png) <br>2. Section B - Users can change password for their account | /account.html         |
 
 
