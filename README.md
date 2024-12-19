@@ -2,8 +2,9 @@
 
 This is a web application built with Vue 3.0 and JSON Server. It imitates a bedding shopping website where you can readily find pillows, sofas and beds. </br></br> You just need to add the items to your shopping cart and fill in some information to own these products!
 
+<a href="https://sleep-power-project.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat-square&logoColor=red&labelColor=%230072E3&color=%23FFE66F" alt="sleepPower"></a>
 Demo here :point_down: <p></p>
-<a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-KSHhostel-1?style=flat&logoColor=red&labelColor=%237E7E7E&color=FFDA6A
+<a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat-square&logoColor=red&labelColor=%230072E3&color=%23FFE66F
 " alt="KSH.hostel"></a>
 
 ## Project View
