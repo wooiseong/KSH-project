@@ -32,7 +32,7 @@ You can click on this link to view more pictures :point_right::point_right::poin
 ## Bugs/Future plans
 1. After users log in, the navigation bar default logo should change to users's uploaded profile picture. When the page is refresh, it takes 1-2 seconds to execute the change. The desired effect should be: once users log in, the logo should be replaced and the users' profile pictures are displayed directly.
 
-2. If users cancel the previews many times, the requests with cancelled previews are still sent to the server. I think I do not clear the temporary storage of the previews when FileReader.onload is executed, or I do not terminate this asynchronous operation. <br><br>To temporary solve this problem, the page is refresh if users cancel a preview. 
+2. If users cancel the previews many times, the requests with cancelled previews are still sent to the server. I think I do not clear the temporary storage of the previews when FileReader.onload is executed, or I do not terminate this asynchronous operation. To temporary solve this problem, the page is refresh if users cancel a preview. 
 
 ## Installation
 Please follow the instructions to get a copy of this project.
