@@ -4,7 +4,7 @@ This is a web application built with Vue 3.0 and JSON Server. It imitates a bedd
 
 <a href="https://sleep-power-project.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat-square&logoColor=red&labelColor=%230072E3&color=%23FFE66F" alt="sleepPower"></a>
 Demo here :point_down: <p></p>
-<a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat&logoColor=red&labelColor=%239D9D9D&color=%23FFDA6A" alt="KSH.hostel"></a>
+<a href="https://ksh-project-vercel-1.vercel.app/"><img src="https://img.shields.io/badge/link-sleepPower-1?style=flat&logoColor=red&labelColor=%237B7B7B&color=%23FFDA6A" alt="KSH.hostel"></a>
 
 ## Project View
 Desktop (1366px)
