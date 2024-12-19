@@ -38,28 +38,27 @@ You can click on this link to view more pictures :point_right::point_right::poin
 Please follow the instructions to get a copy of this project.
 
 ### Prerequisites
- * <a href="https://pnpm.io/installation">pnpm</a> 
+ * <a href="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm">npm</a> 
 
 ### Clone
 ```sh
-git clone https://github.com/wooiseong/sleepPower-project.git
+git clone https://github.com/wooiseong/KSH-project.git
 ```
 
 ### Install pnpm packages
 ```sh
-pnpm install
+npm install
 ```
 
 ### Compile and Hot-Reload for Development
 
 ```sh
-pnpm dev
+npm run dev
 ```
 
 ### Compile and Minify for Production
 
 ```sh
-pnpm build
+npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
